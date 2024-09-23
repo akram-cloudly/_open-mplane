@@ -66,7 +66,7 @@ elseif( "${CONTEXT}" STREQUAL "YOCTO")
   )
 
   add_subdirectory(hal-common)
-  # include(${BOARD}/CMakeLists.txt)
+  # include(${BOARD}/CMakeLists.txt) 
   # include(hal-api/CMakeLists.txt)
   
   include(modular/CMakeLists.txt)
